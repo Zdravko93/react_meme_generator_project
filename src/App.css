@@ -1,0 +1,92 @@
+
+ .header,
+ .form--button {
+    background: #8224a2;
+    color: white;
+ }
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header--image {
+    width: 50px;
+    margin-right: .5em;
+}
+
+.header--title {
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.header--project {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+main {
+    padding: 30px;
+    position: relative;
+}
+
+.form {
+    display: grid;
+    grid-template: 45px 45px/ 1fr 1fr;
+    gap: 20px;
+}
+
+.form--input,
+.form--button {
+    border-radius: 5px;
+}
+
+.form--input {
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.meme--image {
+    max-width: 100%;
+    margin-top: 2em;
+}
+
+.image--text {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    text-align: center;
+}
+
+.meme--text {
+    text-align: left;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    left: 4em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+.top {
+    top: 10rem;
+}
+
+.bottom {
+    bottom: 1rem;
+}
